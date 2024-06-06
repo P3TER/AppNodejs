@@ -1,0 +1,21 @@
+{
+  "name": "cl9",
+  "version": "1.0.0",
+  "description": "Creación de una App que se conecta a una bd",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "Nicolas Gil Vergara",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
