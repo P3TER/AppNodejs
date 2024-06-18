@@ -11,35 +11,40 @@
 
 <body>
     <%- include('_partials/header.ejs') %>
-        <h1 class="text-center p-4">Bienvenido</h1>
-        <article class="container">
-            
+        <h1 class="text-center p-4 mt-5">Bienvenido</h1>
+        <article class="container justify-content-center">
+
             <section class="row">
-                <section style="width: 12%;"></section>
-                <section class="card text-bg-dark border-danger mb-3 me-5 text-center" style="width: 18rem;">
-                    <img src="img/nueva-cuenta.png" class="card-img-top">
-                    <article class="card-body">
-                        <p class="card-text">¿Vas a añadir algún nuevo cliente?</p>
-                        <a class="btn btn-outline-danger" href="#">¡Haz clic aquí!</a>
-    
-                    </article>
-                </section>
-                <section class="card text-bg-dark border-danger mb-3 me-5 text-center" style="width: 18rem;">
-                    <img src="img/nueva-cuenta.png" class="card-img-top">
-                    <article class="card-body">
-                        <p class="card-text">¿Otro producto para el catálogo?</p>
-                        <a class="btn btn-outline-danger" href="/productos">¡Haz clic aquí!</a>
-    
-                    </article>
-                </section>
-                <section class="card text-bg-dark border-danger mb-3 text-center" style="width: 18rem;">
-                    <img src="img/nueva-cuenta.png" class="card-img-top">
-                    <article class="card-body">
-                        <p class="card-text">¿Necesitas revisar los pedidos de la tienda?</p>
-                        <a class="btn btn-outline-danger" href="#">¡Haz clic aquí!</a>
-    
-                    </article>
-                </section>
+                <article class="col-md-4">
+                    <section class="card text-bg-dark border-warning mb-3 text-center" style="width: 18rem;">
+                        <img src="img/nueva-cuenta.png" class="card-img-top">
+                        <article class="card-body">
+                            <p class="card-text">¿Vas a añadir algún nuevo cliente?</p>
+                            <a class="btn btn-outline-warning" href="/clientes">¡Haz clic aquí!</a>
+
+                        </article>
+                    </section>
+                </article>
+                <article class="col-md-4">
+                    <section class="card text-bg-dark border-warning mb-3 text-center" style="width: 18rem;">
+                        <img src="img/nuevo-producto.png" class="card-img-top">
+                        <article class="card-body">
+                            <p class="card-text">¿Otro producto para el catálogo?</p>
+                            <a class="btn btn-outline-warning" href="/productos">¡Haz clic aquí!</a>
+
+                        </article>
+                    </section>
+                </article>
+                <article class="col-md-4">
+                    <section class="card text-bg-dark border-warning mb-3 text-center" style="width: 18rem;">
+                        <img src="img/lista-pedidos.png" class="card-img-top">
+                        <article class="card-body">
+                            <p class="card-text">¿Necesitas revisar los pedidos?</p>
+                            <a class="btn btn-outline-warning" href="/pedidos">¡Haz clic aquí!</a>
+
+                        </article>
+                    </section>
+                </article>
             </section>
         </article>
 </body>
